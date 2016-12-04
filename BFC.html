@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="jumbotron">
+        <h1>你好，世界！<small>hello world!</small></h1>
+        <p>Lorem ipsum dolor sit amet, <i>consectetur adipisicing elit</i>. <em>Molestias possimus labore</em>, vel suscipit deserunt corrupti sunt aliquid, magni blanditiis incidunt, atque eveniet asperiores distinctio ex odio facilis fuga modi explicabo?</p>
+        <p class="lead">我和<b>普通段落</b>不一样</p>
+        <p>我是<strong>普通段落</strong></p>
+        <p><a href="#">lorem ipsum >></a></p>
+    </div>
+    <div class="text-muted">浅灰色提示#999</div>
+    <div class="text-primary">蓝色（#428bca）</div>
+    <div class="text-success">浅绿色#3c763d</div>
+    <div class="text-info">通知信息#31708f</div>
+      <div class="text-warning">警告使用黄色#8a6d3b</div>
+      <div class="text-danger">危险色褐色#a94442</div>
+    <ol class="list-inline">
+      <li>有序项目列表一</li>
+      <li>有序项目列表二
+        <ol class="list-unstyled">
+          <li>有序二级项目列表一</li>
+          <li>有序二级项目列表二
+            <ul>
+              <li>无序三级列表一</li>
+              <li>无序三级列表二
+                <ul class="list-unstyled">
+                  <li>无序四级列表一</li>
+                  <li>无序四级列表二</li>
+                  <li>无序四级列表三</li>
+                </ul>
+              </li>
+              <li>无序三级列表三</li>
+            </ul>
+          </li>
+          <li>有序二级项目列表三</li>
+        </ol>
+      </li>
+      <li>有序项目列表三</li>
+    </ol>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>类名</th>
+          <th>描述</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="active">
+          <td>.active</td>
+          <td>表示当前活动的信息</td>
+        </tr>
+        <tr class="success">
+          <td>.success</td>
+          <td>表示成功或者正确的行为</td>
+        </tr>
+        <tr class="info">
+          <td>.info</td>
+          <td>表示中立的信息或行为</td>
+        </tr>
+        <tr class="warning">
+          <td>.warning</td>
+          <td>表示警告，需要特别注意</td>
+        </tr>
+        <tr class="danger">
+          <td>.danger</td>
+          <td>表示危险或者可能是错误的行为</td>
+        </tr>
+  
+      </tbody>
+    </table>
+   <form role="form" class="form-horizontal">
+     <div class="form-group">
+       <label for="email1" class="col-sm-2 control-label">邮箱：</label>
+       <div class="col-sm-10">
+          <input type="email" class="form-control" id="email1" placeholder="请输入你的邮箱地址">
+       </div>
+     </div>
+     <div class="form-group">
+       <label for="password1" class="col-sm-2 control-label">密码：</label>
+       <div class="col-sm-10">
+       <input type="passworld" class="form-control" id="password1" placeholder="请输入你的密码">
+       </div>
+     </div>
+     <div class="form-group">
+     <div class="col-sm-offset-2 col-sm-10">
+       <div class="checkbox">
+         <label ><input type="checkbox">记住密码</label>
+       </div>
+       </div>
+     </div>
+      <div class="form-group">
+     <div class="col-sm-offset-2 col-sm-10">
+     <button type="submit" class="btn btn-default">进入邮箱</button>
+      </div>
+       </div>
+   </form>
+   <!-- 行内表单 -->
+      <form role="form" class="form-inline">
+     <div class="form-group">
+       <label for="email1" class="sr-only">邮箱：</label>
+       <div class="col-sm-10">
+          <input type="email" class="form-control" id="email1" placeholder="请输入你的邮箱地址">
+       </div>
+     </div>
+     <div class="form-group">
+       <label for="password1" class="sr-only">密码：</label>
+       <div class="col-sm-10">
+       <input type="passworld" class="form-control" id="password1" placeholder="请输入你的密码">
+       </div>
+     </div>
+       <div class="checkbox">
+         <label ><input type="checkbox">记住密码</label>
+       </div>
+     <button type="submit" class="btn btn-default">进入邮箱</button>
+   </form>
+   <!-- 下拉列表select -->
+   <form role="form">
+     <div class="form-group">
+       <select class="form-control">
+         <option>1</option>
+         <option>2</option>
+         <option>3</option>
+         <option>4</option>
+         <option>5</option>
+       </select>
+     </div>
+     <div class="form-group">
+       <select multiple class="form-control">
+         <option>1</option>
+         <option>2</option>
+         <option>3</option>
+         <option>4</option>
+         <option>5</option>
+       </select>
+     </div>
+     <div class="form-group">
+       <textarea class="form-control" cols="30" rows="10"></textarea>
+     </div>
+   </form>
+   <form role="form">
+     <div class="checkbox">
+       <label class="checkbox-inline"><input type="checkbox" value="">
+       记住密码
+       </label>
+     </div>
+     <div class="radio">
+       <label class="radio-inline"><input type="radio" name="optionRadios" id="optionRadios1" value="love" checked>
+       喜欢
+       </label>
+       <label class="radio-inline"><input type="radio" name="optionRadios" id="optionRadios1" value="hate">
+       不喜欢
+       </label>
+     </div>
+     <button class="btn btn-default">default</button>
+     <button class="btn btn-primary">primary</button>
+     <button class="btn btn-success">success</button>
+     <button class="btn btn-info">info</button>
+     <button class="btn btn-warning">warning</button>
+     <button class="btn btn-danger">adnger</button>
+     <button class="btn btn-link">link</button>
+     <button class="btn btn-inverse">inverse</button>
+   </form>
+   <form role="form">
+     <div class="form-group">
+       <div class="col-xs-4"><input type="text" class="form-control input-lg" placeholder="四分之一"></div>
+       <div class="col-xs-4"><input type="text" class="form-control input-lg" placeholder="四分之一"></div>
+       <div class="col-xs-4"><input type="text" class="form-control input-lg" placeholder="四分之一"></div>
+     </div>
+     <div class="form-group">
+       <div class="col-xs-6"><input type="text" class="form-control input-lg" placeholder="二分之一"></div>
+       <div class="col-xs-6"><input type="text" class="form-control input-lg" placeholder="二分之一"></div>
+     </div>
+     <div class="form-group">
+       <div class="col-xs-4"><input type="text" class="form-control input-lg" placeholder="三分之一"></div>
+       <div class="col-xs-8"><input type="text" class="form-control input-lg" placeholder="三分之二"></div>
+     </div>
+
+   </form>
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+  
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
